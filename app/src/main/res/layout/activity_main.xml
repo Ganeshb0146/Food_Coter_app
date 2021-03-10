@@ -26,7 +26,7 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#03111111">
+            android:background="#2F111111">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -56,7 +56,8 @@
                     app:queryHint="Search favourate menu, restaurant"
                     app:searchIcon="@drawable/ic_search_black_24dp"
                     android:elevation="5dp"
-                    android:outlineProvider="bounds"/>
+                    android:background="#fff"
+                    />
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
@@ -128,7 +129,8 @@
                     android:id="@+id/recyclerVieOurTestimonials"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp">
+                    android:layout_marginTop="10dp"
+                    android:background="#2F111111">
                 </androidx.recyclerview.widget.RecyclerView>
 
 
